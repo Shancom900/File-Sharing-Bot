@@ -19,7 +19,7 @@ APP_ID = int(os.environ.get("APP_ID", "27359621"))
 API_HASH = os.environ.get("API_HASH", "6202d9add6fce5b6f8b71f731842d7bc")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001904329872"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001813732017"))
 
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "1903592278"))
@@ -32,7 +32,7 @@ DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://shanucom9000:Shanucom101@
 DB_NAME = os.environ.get("DATABASE_NAME", "Cluster0")
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001904329872"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
